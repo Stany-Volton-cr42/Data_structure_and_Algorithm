@@ -31,3 +31,8 @@ while i <= n:
     and the underRoot the complexity would be O(log.log(n))
     
     SEE EXPLAINTION IN COMPATIBILITY.MD"""
+
+
+while i>= n:
+    print("hello")
+    i = i // i**2   # the complexity would be O(log.log(n))
