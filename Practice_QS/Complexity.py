@@ -18,13 +18,13 @@
 #         j = j * 2               #So the whole complexity is O(n_log_n)
 
 
-# one more loop
+# # one more loop
 n = int(input("Number"))
 
-i = 2
-while i <= n:
-    print("hello")
-    i = i**2
+# i = 2
+# while i <= n:
+#     print("hello")
+#     i = i**2
 
 """The complexity of the above algorithm is O(log.log(n)).
     Trick:- whenever you see the squire or the power 
@@ -32,7 +32,9 @@ while i <= n:
     
     SEE EXPLAINTION IN COMPATIBILITY.MD"""
 
-
+i = 1
 while i>= n:
     print("hello")
     i = i // i**2   # the complexity would be O(log.log(n))
+print(i)
+
